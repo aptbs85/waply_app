@@ -1,0 +1,12 @@
+.glyphiconheader {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-default {
+    background-color: #39BA9B;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
