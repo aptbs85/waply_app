@@ -15,7 +15,7 @@
     background-color: #343434;
 }
 
-.addproductheading {
+.heading {
      padding-left: 16px;
 }
 
@@ -24,10 +24,69 @@
 }
 
 .form-control.messagefield {
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 
 .uploadbutton {
     width: 160px !important;
     margin-top: 32px;
+}
+
+.leftcolumn{
+   background-color: #343434; 
+   margin-top: -25px;
+   height:100vh;
+}
+
+.unorderedl {
+    color: #8F8F8F;
+    list-style-type: none;
+}
+
+.unorderedl li {
+    padding-top: 23px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.unorderedl li a {
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+.middlecolumn {
+    margin-left: 25px;
+}
+
+.top {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.eng {
+    margin-top: 100%;
+    margin-left: 13%;
+}
+
+
+
+.eng p a {
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+.circle {
+  width: 50;
+  height: 50;
+  border-radius: 50%;
+  font-size: 10;
+  color: #fff;
+  line-height: 10;
+  text-align: center;
+  background: #000
 }
