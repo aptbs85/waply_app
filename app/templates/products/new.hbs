@@ -1,2 +1,60 @@
-<h1>Add a product</h1>
-
+<div class="container-fluid">
+  <div class="row">
+      
+    <div class="addproductheading">
+        <h2><u>Add a product</u></h2>
+        <br>
+    </div> 
+    
+    <div class="col-md-6">
+      
+      <form>
+        <div class="form-group">
+            {{textarea class="form-control messagefield" rows="12" placeholder="Product photo description"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Supply Ability"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Minimum order"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Certifications"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Place of origin"}}
+        </div>
+      </form>
+    </div>
+    
+    <div class="col-md-6">
+        
+        <form>
+        <div class="form-group">
+            {{textarea class="form-control messagefield" rows="12" placeholder="Product description"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Packaging details"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Pickup address"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Product life cycle"}}
+        </div>
+        <div>
+            {{input type="text" class="form-control inputfield"  placeholder="Pricing policy"}}
+        </div>
+        </form>
+        
+        <div class="uploadproduct">
+            <button class="btn btn-success btn-lg dropdown-toggle pull-right uploadbutton" type="button" >
+                Upload
+            </button>
+        </div>
+        
+    </div>
+    
+    
+  </div>
+</div>
