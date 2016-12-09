@@ -12,5 +12,5 @@ export default DS.Model.extend({
     productLifeCycle: DS.attr('string'),
     pricingPolicy: DS.attr('string')
     
-    
+ 
 });

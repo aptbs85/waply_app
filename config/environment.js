@@ -6,6 +6,15 @@ module.exports = function(environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    
+    firebase: {
+      apiKey: 'AIzaSyD6sBC1rtWwxwVlHo3zC4HT3339g9SdWxo',
+      authDomain: 'warply-98a32.firebaseapp.com',
+      databaseURL: 'https://warply-98a32.firebaseio.com',
+      storageBucket: 'warply-98a32.appspot.com',
+    },
+    
+    
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
