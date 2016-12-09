@@ -15,7 +15,7 @@ export default Ember.Controller.extend({
             var pricingPolicy = this.get('pricingPolicy');
             
             
-            var newProduct = this.store.createRecord('task', {
+            var newProduct = this.store.createRecord('product', {
                 productPhotoDescription: productPhotoDescription,
                 supplyAbility: supplyAbility,
                 minimumOrder: minimumOrder,
@@ -41,7 +41,7 @@ export default Ember.Controller.extend({
                 packagingDetails: '',
                 pickupAddress: '',
                 productLifeCycle: '',
-                pricingPolicy: ''
+                pricingPolicy: '',
             });
             
             
