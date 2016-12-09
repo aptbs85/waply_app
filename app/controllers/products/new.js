@@ -13,6 +13,38 @@ export default Ember.Controller.extend({
             var pickupAddress = this.get('pickupAddress');
             var productLifeCycle = this.get('productLifeCycle');
             var pricingPolicy = this.get('pricingPolicy');
+            
+            
+         /*   var newProduct = this.store.createRecord('task', {
+                productPhotoDescription: productPhotoDescription,
+                supplyAbility: supplyAbility,
+                minimumOrder: minimumOrder,
+                certifications: certifications,
+                placeOfOgirin: placeOfOgirin,
+                productDescription: productDescription,
+                packagingDetails: packagingDetails,
+                pickupAddress: pickupAddress,
+                productLifeCycle: productLifeCycle,
+                pricingPolicy: pricingPolicy
+            });
+            
+            
+            newProduct.save();
+            
+            this.setProperties({
+                productPhotoDescription: '',
+                supplyAbility: '',
+                minimumOrder: '',
+                certifications: '',
+                placeOfOgirin: '',
+                productDescription: '',
+                packagingDetails: '',
+                pickupAddress: '',
+                productLifeCycle: '',
+                pricingPolicy: ''
+            });
+            
+            */
         }
     }
 });
