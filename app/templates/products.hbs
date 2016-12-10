@@ -1,4 +1,35 @@
-    <div class="heading">
-        <h2><u>Your products</u></h2>
-        <br>
-    </div> 
+<div class="container-fluid">
+    <div class="row">
+        
+        <div class="heading">
+            <h2><u>Your products</u></h2>
+            <br>
+        </div> 
+        
+        <div class="col-md-12">
+            {{#each model as |product|}}
+                <div class="well">
+                    <h4>{{product.productPhotoDescription}}</h4>
+                    <h6>{{product.productDescription}}</h6>
+                    <br>
+                    <p>{{product.supplyAbility}}</p>
+                </div>
+            {{/each}}
+        </div>
+        
+        <div class="uploadproduct">
+            <button class="btn btn-success btn-lg dropdown-toggle pull-right uploadbutton" type="button" >
+                Add new
+            </button>
+        </div>
+        
+        
+        
+    </div>
+</div>
+    
+    
+    
+    
+    
+    
