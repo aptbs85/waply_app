@@ -1,3 +1,6 @@
+/* navbar */
+
+
 .glyphiconheader {
     font-size: 20px;
     color: white;
@@ -10,6 +13,13 @@
 .navbar-default .navbar-brand {
     color: white;
 }
+
+/* navbar end*/
+
+
+
+
+
 
 .left {
     background-color: #343434;
@@ -32,10 +42,15 @@
     margin-top: 32px;
 }
 
+/* left column */
+
 .leftcolumn{
    background-color: #343434; 
    margin-top: -25px;
    height:100vh;
+   padding-left: 0px;
+   
+   
 }
 
 .unorderedl {
@@ -55,6 +70,23 @@
     text-decoration: none;
 }
 
+.eng {
+    margin-top: 100%;
+    margin-left: 13%;
+}
+
+
+
+.eng p a {
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+/* left column end*/
+
+
+
+
 body {
     font-family: "Open Sans";
 }
@@ -68,17 +100,6 @@ body {
     margin-left: 30px;
 }
 
-.eng {
-    margin-top: 100%;
-    margin-left: 13%;
-}
-
-
-
-.eng p a {
-    color: #8F8F8F;
-    text-decoration: none;
-}
 
 
 .topright {
@@ -92,5 +113,49 @@ body {
 
 .bottomright {
     background-color: #6E6D72;
-    height: 85vh;
+    height: 80vh;
+}
+
+.formleft {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.formright {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.search {
+    background-color: #39BA9B;
+}
+
+.searchicon {
+    color:white;
+}
+
+textarea:focus, input:focus, .uneditable-input:focus {   
+    border-color: white !important;
+}
+
+.navbar-header {
+
+}
+
+
+.edit {
+    float: right;
+    padding-top: 12px;
+    padding-right:20px;
+    text-align: center;
+}
+
+.editglyphicon {
+    font-size: 20px;
+    color: #39BA9B;
+}
+
+.edit p {
+    font-size: 14px;
+    color: #39BA9B;
 }

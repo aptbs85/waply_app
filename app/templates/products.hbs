@@ -5,9 +5,17 @@
             <h2><u>Your products</u></h2>
             <br>
         </div> 
+    
         
         <div class="col-md-12">
             {{#each model as |product|}}
+            
+                <div class="edit">
+                    {{#link-to 'products/new'}}<span class="glyphicon glyphicon-pencil editglyphicon " aria-hidden="true"></span>{{/link-to}}
+                    {{#link-to 'products/new'}}<p>Edit</p>{{/link-to}}
+                </div>
+            
+            
                 <div class="well">
                     <h4>{{product.productPhotoDescription}}</h4>
                     <h6>{{product.productDescription}}</h6>
@@ -16,11 +24,13 @@
                 </div>
             {{/each}}
         </div>
+            
+
         
         <div class="uploadproduct">
-            <button class="btn btn-success btn-lg dropdown-toggle pull-right uploadbutton" type="button" >
+            {{#link-to 'products/new'}}<button class="btn btn-success btn-lg dropdown-toggle pull-right uploadbutton" type="button" >
                 Add new
-            </button>
+            </button>{{/link-to}}
         </div>
         
         
